@@ -1,0 +1,109 @@
+body{
+margin:0px;
+font-family:cursive;
+-webkit-user-select: none;
+
+}
+.page{
+overflow: hidden;
+margin: 0 auto;
+font-size: 18px;
+padding: 10px 10px;
+margin-top: 40px;
+border:5px solid gray;
+box-shadow: 1px 10px 10px #333333;
+}
+#loginform
+{
+	position:absolute;
+	top:0;
+	background-color:#BEBEBE;
+	height:10%;
+	width:35%;
+	font-size:6pt;
+	float:left;
+}
+#userlist{
+position:absolute;
+right:5px;
+top:5px;
+height:70%;
+width:15%;
+border:5px solid gray;
+box-shadow: 10px 10px 10px #333333;
+}
+#users
+{
+	margin:5px 10px 10px 10px;
+    height:80%;
+    width:80%;
+    overflow:scroll;
+}
+#videochatroom {
+background-color:pink;
+top:10%;
+left:10%;
+width:80%;
+height:70%;
+display:none;
+margin:10px 0px 0px 10px;
+border:5px solid gray;
+box-shadow: 10px 10px 10px #333333;
+}
+.videocontainer{
+padding:0;
+width:240px;
+height:200px;
+position:absolute; 
+border:3px solid black;
+}
+.videotitle{
+font-size:12pt;
+width:100%;
+height:10%;
+cursor:move;
+}
+.videotitlebutton
+{
+	position:absolute;
+	top:0;
+	font-size:12pt;
+	height:10%;
+	width:10%;
+	text-align:center;
+}
+.video{
+width: 100%;
+height: 90%;
+}
+.volume_bar
+{
+	position: absolute;
+    width: 5px;
+    height: 100%;
+    right: 0px;
+    bottom: 0px;
+    background-color:Purple;
+}
+#textchatroom{
+position:absolute;
+bottom:0;
+height:20%;
+width:95%;
+margin:10px 20px 15px 20px;
+border:5px solid gray;
+box-shadow: 10px 10px 10px #333333;
+}
+#messages
+{
+	width:95%;
+	height:60%;
+	overflow:scroll;
+	margin:5px 5px;
+}
+#sendinput
+{
+	width:95%;
+	height:20%;
+	margin:2px 5px;
+}
